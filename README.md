@@ -40,6 +40,17 @@ Core strengths shown in this project:
 - Stability and thermal stress testing
 - Tuning and noise/performance balancing
 
+## Current System Snapshot
+
+- CPU: AMD Ryzen 5 7600X (6C/12T)
+- Motherboard: Gigabyte B850 EAGLE WIFI6E
+- RAM: 32 GB DDR5 (2 x 16 GB TeamGroup UD5-7200, SK Hynix ICs)
+- GPU: AMD Radeon RX 9060 XT 8 GB (Gigabyte)
+- Primary Storage: Crucial P3 Plus 2 TB NVMe (CT2000P3PSSD8)
+- Secondary Storage: WD 1.5 TB SATA HDD (WDC WD15EARS-00MVWB0)
+
+For measured values, see [BENCHMARKS.md](BENCHMARKS.md).
+
 ## Validation Approach
 
 I use a repeatable test cycle:
@@ -53,7 +64,7 @@ I use a repeatable test cycle:
 
 - Full build lifecycle documented
 - Stability process defined and repeatable
-- Benchmark logging template ready for ongoing updates
+- Idle baseline metrics captured and documented
 
 ## Professional Impact
 
