@@ -44,11 +44,29 @@
 - Compare memory-junction temperature before/after fan-curve adjustment
 - Add SSD benchmark and game/FPS benchmark entries
 
+## CPU Benchmark Snapshot (OCCT, 2026-04-19)
+
+Source: OCCT CPU Benchmark screen provided by user.
+
+| Benchmark Mode | Score |
+|---|---:|
+| Single thread - SSE | 107.67 |
+| Single thread - AVX | 215.91 |
+| Multiple threads - SSE | 662.63 |
+| Multiple threads - AVX | 1275.56 |
+
+### Quick Read
+
+- AVX throughput is much higher than SSE, as expected.
+- Multi-thread scaling is strong for a 6-core/12-thread platform.
+- This snapshot is suitable as a baseline before deeper stress-testing.
+
 ## Stability Test Log
 
 | Date | Test | Duration | Result | Peak Temp | Notes |
 |---|---|---|---|---:|---|
 | 2026-04-19 | Idle baseline capture | 15 min | Pass | CPU 49 C / GPU 46 C hotspot | No instability detected |
+| 2026-04-19 | OCCT CPU benchmark | quick run | Pass | not recorded in screenshot | Scores logged in CPU Benchmark Snapshot section |
 | YYYY-MM-DD | CPU stress (planned) | 30 min | pending | | |
 | YYYY-MM-DD | Mixed load (planned) | 45 min | pending | | |
 
