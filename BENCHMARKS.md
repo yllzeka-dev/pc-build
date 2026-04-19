@@ -61,12 +61,25 @@ Source: OCCT CPU Benchmark screen provided by user.
 - Multi-thread scaling is strong for a 6-core/12-thread platform.
 - This snapshot is suitable as a baseline before deeper stress-testing.
 
+## External Benchmark Reference (timbrica.com)
+
+User-provided benchmark reference:
+
+- CPU Benchmark: 50'000 (Ultra High-End)
+- ST: 20'000
+- MT: 30'000
+- 12 cores
+- Source: timbrica.com/cpu-benchmark
+
+Note: External benchmark scales differ by platform and scoring method; keep comparisons inside the same benchmark family for fairness.
+
 ## Stability Test Log
 
 | Date | Test | Duration | Result | Peak Temp | Notes |
 |---|---|---|---|---:|---|
 | 2026-04-19 | Idle baseline capture | 15 min | Pass | CPU 49 C / GPU 46 C hotspot | No instability detected |
 | 2026-04-19 | OCCT CPU benchmark | quick run | Pass | not recorded in screenshot | Scores logged in CPU Benchmark Snapshot section |
+| 2026-04-19 | timbrica external benchmark reference | n/a | recorded | n/a | 50'000 total, ST 20'000, MT 30'000 |
 | YYYY-MM-DD | CPU stress (planned) | 30 min | pending | | |
 | YYYY-MM-DD | Mixed load (planned) | 45 min | pending | | |
 
